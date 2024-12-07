@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JAVASCRIPT</title>
+</head>
+<link rel="stylesheet" href="./custom.css">
+<body>
+  <div class="first">
+    <h1>AESTHETIC VIBES!</h1>
+    <button onclick="buttonAlert()">Click Me</button> <br>
+</div><br>
+  <div class="second">
+    <h1>JAVASCRIPT SESSION</h1>
+    <h3 id="sampleComputation"></h3>
+    <button id="secondComputation" onclick="buttonAlert()"></button>
+  </div>
+  <script src="./custom.js"></script>
+  <script type="text/JAVASCRIPT">
+    document.write("HELLO WORLD");
+    console.log('Hello World');
+    let name = "Jalyn Mariano";
+    document.write("<br><br>");
+    displayName(name);
+    //COMPUTE 2 NUMBERS
+    let firstNumber = 112;
+    let secondNumber = 20;
+    productOfTwoNumbers(firstNumber, secondNumber, "sampleComputation")
+    productOfTwoNumbers(firstNumber, secondNumber, "secondComputation")
+
+    //FUNCTION TO COMPUTE 2 NUMBERS USING ALERTS
+
+    ComputeGrade();
+  </script>
+</body>
+</html>
